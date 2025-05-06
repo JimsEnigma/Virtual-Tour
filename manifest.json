@@ -36,9 +36,9 @@
    "src": "misc/icon64.png"
   }
  ],
- "name": "JIMS Virtual Tour",
  "background_color": "#FFFFFF",
+ "name": "JIMS Virtual Tour",
  "display": "fullscreen",
- "theme_color": "#FFFFFF",
- "start_url": "index.htm"
+ "start_url": "index.htm",
+ "theme_color": "#FFFFFF"
 }
