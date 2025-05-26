@@ -61,6 +61,19 @@
    font-style: italic;
 }
 
+@font-face {
+   font-family: "Oswald";
+   src: url("fonts/Oswald Demi-BoldItalic.woff") format("woff"), url("fonts/Oswald Demi-BoldItalic.eot") format("embedded-opentype"), url("fonts/Oswald Demi-BoldItalic.ttf") format("truetype"), url("fonts/Oswald Demi-BoldItalic.svg") format("svg");
+   font-weight: bold;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: "Oswald";
+   src: url("fonts/Oswald DemiBold.woff") format("woff"), url("fonts/Oswald DemiBold.eot") format("embedded-opentype"), url("fonts/Oswald DemiBold.ttf") format("truetype"), url("fonts/Oswald DemiBold.svg") format("svg");
+   font-weight: bold;
+   font-style: normal;
+}
 
 .modal-backdrop {
    display: none;
@@ -95,19 +108,6 @@
    cursor: pointer;
 }
 
-@font-face {
-   font-family: "Oswald";
-   src: url("fonts/Oswald Demi-BoldItalic.woff") format("woff"), url("fonts/Oswald Demi-BoldItalic.eot") format("embedded-opentype"), url("fonts/Oswald Demi-BoldItalic.ttf") format("truetype"), url("fonts/Oswald Demi-BoldItalic.svg") format("svg");
-   font-weight: bold;
-   font-style: italic;
-}
-
-@font-face {
-   font-family: "Oswald";
-   src: url("fonts/Oswald DemiBold.woff") format("woff"), url("fonts/Oswald DemiBold.eot") format("embedded-opentype"), url("fonts/Oswald DemiBold.ttf") format("truetype"), url("fonts/Oswald DemiBold.svg") format("svg");
-   font-weight: bold;
-   font-style: normal;
-}
 
 @font-face {
    font-family: "Oswald";
@@ -275,8 +275,4 @@
    src: url("fonts/Bebas Neue Regular.woff") format("woff"), url("fonts/Bebas Neue Regular.eot") format("embedded-opentype"), url("fonts/Bebas Neue Regular.ttf") format("truetype"), url("fonts/Bebas Neue Regular.svg") format("svg");
    font-weight: normal;
    font-style: normal;
-}
-
-.hello{
-   color:red;
 }
